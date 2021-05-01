@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Contact";
+}
+<h2>@ViewBag.Title</h2>
+<!--<h3>@ViewBag.Message</h3>-->
+
+
+<div class="contact-form">
+    <form  action="https://formspree.io/f/xayaqjkl"
+    method="POST">
+        <div class="name">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" name="message" class="form-control" placeholder="Full Name" required=""/>
+        </div>
+        <br>
+        <div class="email">
+            <label for="email" class="form-label">E-mail</label>
+            <input type="email" name="_replyto" class="form-control" placeholder="E-mail" required=""/>
+        </div>
+        <br>
+        <div class="message">
+            <label for="message" class="form-label">Message</label>
+            <textarea name="message" class="form-control" placeholder="Message" rows="6" required=""></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<!--<address>
+    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
+    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+</address> -->

@@ -1,6 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: lavender;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -23,10 +24,46 @@ textarea {
     max-width: 280px;
 }
 
-.about-image{
+.about-image {
+    float: right;
+    position: page;
+    padding-bottom: 10px;
+        /*top right bottom left*/
+}
+
+.about-me {
     
+    text-align: left;
+    text-align: justify;
+    padding: 5px 50px 50px 50px;
+}
+
+.row {
+    border: 2px solid black;
+    padding-top: 30px;
+}
+
+
+h2{
+    font-size: 50px;
+    text-align: center;
+    color: darkslategray
+}
+
+h3{
+    text-align: center;
 }
 
 .form-label{
     font-size: 20px;
 }
+
+/*.panel {
+    border: 2px solid black;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 1em;
+    overflow: hidden;
+    box-shadow: 0 0 20px gray;
+
+}*/

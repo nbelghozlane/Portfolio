@@ -30,10 +30,11 @@
     </div>
     <div class="container body-content">
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year Copyright - Nadia Alexa Belghozlane</p>
-        </footer>
+        <div class="modal-footer navbar-fixed-bottom">
+            <footer>
+                <p>&copy; @DateTime.Now.Year Copyright - Nadia Alexa Belghozlane</p>
+            </footer>
+        </div>
     </div>
 
     @Scripts.Render("~/bundles/jquery")

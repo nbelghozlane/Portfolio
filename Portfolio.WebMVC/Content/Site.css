@@ -43,11 +43,38 @@ textarea {
 .row {
     border: 2px solid darkslategray;
     padding-top: 30px;
+    padding-bottom: 30px;
     background-color: whitesmoke;
     box-shadow: 0 0 20px black;
     border-radius: 2em;
 }
 
+.home-page {
+    border: 2px solid darkslategray;
+    padding: 50px 50px 50px 50px;
+    background-color: whitesmoke;
+    border-radius: 2em;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    opacity: 0.95;
+    box-shadow: 0 0 20px black;
+}
+
+.link-icons{
+    text-align: center;
+    padding-top: 20px;
+}
+
+h1 {
+    font-size: 75px;
+    text-align: center;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.sub-head {
+    text-align: center;
+    font-size: 25px;
+}
 
 h2 {
     font-size: 75px;
@@ -86,4 +113,19 @@ h3{
 
 .projects-board {
     
+}
+
+.btn {
+    background-color: lightsteelblue;
+    color: white;
+    border: 2px solid black;
+    padding: 10px 10px 10px 10px;
+}
+
+.footer {
+    background-color:lightgray;
+    padding-top: 25px;
+    text-align: center;
+    color: black;
+
 }

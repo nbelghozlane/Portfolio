@@ -127,7 +127,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Assets\BlueBadgeProjectScreenshot.png" />
+    <Content Include="Content\Assets\creaturecat.PNG" />
+    <Content Include="Content\Assets\goldbadgechallengesimg.PNG" />
     <Content Include="Content\Assets\nadiaheadshot.jpg" />
+    <Content Include="Content\Assets\pawel-czerwinski-Qiy4hr18aGs-unsplash.jpg" />
+    <Content Include="Content\Assets\pawel-czerwinski-Qiy4hr18aGs-unsplashcropped.jpg" />
+    <Content Include="Content\Assets\Xmas Shop.png" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />

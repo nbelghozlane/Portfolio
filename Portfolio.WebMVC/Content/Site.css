@@ -1,7 +1,8 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
-    background-color: lavender;
+    /*background-color: lavender;*/
+    background-image: url('Assets/pawel-czerwinski-Qiy4hr18aGs-unsplashcropped.jpg')
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -32,38 +33,57 @@ textarea {
 }
 
 .about-me {
-    
     text-align: left;
     text-align: justify;
     padding: 5px 50px 50px 50px;
+    color: darkslateblue;
+    font-size: 18px;
 }
 
 .row {
-    border: 2px solid black;
+    border: 2px solid darkslategray;
     padding-top: 30px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 20px black;
+    border-radius: 2em;
 }
 
 
-h2{
-    font-size: 50px;
+h2 {
+    font-size: 75px;
     text-align: center;
-    color: darkslategray
+    color: darkslategray;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    
 }
 
 h3{
     text-align: center;
+    font-weight: bold;
 }
 
 .form-label{
     font-size: 20px;
 }
 
-/*.panel {
-    border: 2px solid black;
-    text-align: center;
+.col-md-4 {
+    /*border: 2px solid black;
+
     font-size: 18px;
     border-radius: 1em;
     overflow: hidden;
     box-shadow: 0 0 20px gray;
+    padding: 50px 50px 50px 50px;*/
+}
 
-}*/
+.contact-div {
+    border: 2px solid darkslategray;
+    padding: 50px 50px 50px 50px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 20px black;
+    border-radius: 2em;
+}
+
+.projects-board {
+    
+}

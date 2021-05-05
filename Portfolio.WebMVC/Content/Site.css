@@ -59,7 +59,7 @@ textarea {
     border-radius: 2em;
     margin-top: 80px;
     margin-bottom: 50px;
-    opacity: 0.9;
+    opacity: 0.8;
     box-shadow: 0 0 20px black;
 }
 
@@ -125,23 +125,27 @@ panel-body {
     background-color: lightsteelblue;
     color: black;
     font-weight: bold;
-    border: 1px solid black;
+    border: 2px solid black;
     padding: 10px 10px 10px 10px;
     font-size: 13px;
     border-radius: 2em;
     transition-duration: 0.4s;
 }
 
-    .button:hover {
-        color: white;
-        background-color: dimgray;
-    }
+.button:hover {
+   color: white;
+   background-color: dimgray;
+   text-decoration: none;
+  
+}
 
 .footer {
-    background-color: lightgray;
+    background-color: whitesmoke;
     padding-top: 25px;
     text-align: center;
     color: black;
+    font-size: 19px;
+    border: 1px solid black;
 }
 
 .navbar {
@@ -166,4 +170,20 @@ panel-body {
     font-size: 18px;
     border: 2px solid darkslategray;
     opacity: .70;
+}
+
+.nav li a:hover {
+    color: white;
+    background-color: palevioletred;
+}
+
+nav li a:visited {
+    color: black;
+}
+
+.panel-body-more {
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 80px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
 }

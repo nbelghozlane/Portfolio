@@ -136,7 +136,6 @@ panel-body {
    color: white;
    background-color: dimgray;
    text-decoration: none;
-  
 }
 
 .footer {
@@ -157,33 +156,35 @@ panel-body {
 .container {
 }
 
+@media (min-width: 768px) {
+    .navbar-nav {
+        float: none;
+        margin: 0 auto;
+        margin-top: 5px;
+        margin-right: 5px;
+        display: table;
+        table-layout: fixed;
+        padding: 0px 50px 5px 50px;
+        background-color: whitesmoke;
+        font-size: 18px;
+        border: 2px solid darkslategray;
+        opacity: .70;
+    }
 
-.navbar-nav {
-    float: none;
-    margin: 0 auto;
-    margin-top: 5px;
-    margin-right: 5px;
-    display: table;
-    table-layout: fixed;
-    padding: 0px 50px 5px 50px;
-    background-color: whitesmoke;
-    font-size: 18px;
-    border: 2px solid darkslategray;
-    opacity: .70;
+    .nav li a:hover {
+        color: white;
+        background-color: palevioletred;
+    }
+
+    nav li a:visited {
+        color: black;
+    }
 }
 
-.nav li a:hover {
-    color: white;
-    background-color: palevioletred;
-}
+    .panel-body-more {
+        font-size: 48px;
+        font-weight: bold;
+        padding-top: 80px;
+        font-family: Brush Script MT, Brush Script Std, cursive;
+    }
 
-nav li a:visited {
-    color: black;
-}
-
-.panel-body-more {
-    font-size: 48px;
-    font-weight: bold;
-    padding-top: 80px;
-    font-family: Brush Script MT, Brush Script Std, cursive;
-}

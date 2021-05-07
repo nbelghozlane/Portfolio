@@ -1,7 +1,6 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
-    /*background-color: lavender;*/
     background-image: url('Assets/pawel-czerwinski-Qiy4hr18aGs-unsplashcropped.jpg')
 }
 
@@ -9,6 +8,7 @@
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 80px;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -29,7 +29,6 @@ textarea {
     float: right;
     position: page;
     padding-bottom: 10px;
-    /*top right bottom left*/
 }
 
 .about-me {
@@ -104,9 +103,12 @@ h3 {
     padding-top: 40px;
 }
 
-panel-body {
+.panel-body-more {
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 80px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
 }
-
 
 .contact-div {
     border: 2px solid darkslategray;
@@ -115,10 +117,6 @@ panel-body {
     box-shadow: 0 0 20px black;
     border-radius: 2em;
     opacity: 0.83;
-}
-
-.projects-board {
-    /*padding: 50px 10px 50px 10px;*/
 }
 
 .button {
@@ -138,6 +136,11 @@ panel-body {
    text-decoration: none;
 }
 
+.button a:visited {
+    color: black;
+    text-decoration: none;
+}
+
 .footer {
     background-color: whitesmoke;
     padding-top: 25px;
@@ -149,11 +152,6 @@ panel-body {
 
 .navbar {
     text-align: center;
-}
-
-
-
-.container {
 }
 
 @media (min-width: 768px) {
@@ -181,10 +179,4 @@ panel-body {
     }
 }
 
-    .panel-body-more {
-        font-size: 48px;
-        font-weight: bold;
-        padding-top: 80px;
-        font-family: Brush Script MT, Brush Script Std, cursive;
-    }
-
+ 

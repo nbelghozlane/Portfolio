@@ -1,1 +1,46 @@
-"Hello World" 
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    
+    <nav class="navbar navbar-fixed-top" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse  navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li>@Html.ActionLink("Nadia A. Belghozlane", "Index", "Home")</li>
+                <li>@Html.ActionLink("About Me", "About", "Home")</li>
+                <li>@Html.ActionLink("Projects", "Projects", "Home")</li>
+                <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container body-content">
+        @RenderBody()
+        <div class="footer navbar-fixed-bottom">
+            <footer>
+                <p>&copy; @DateTime.Now.Year Copyright - Nadia Alexa Belghozlane</p>
+            </footer>
+        </div>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+
